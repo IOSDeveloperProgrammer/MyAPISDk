@@ -42,7 +42,7 @@
 		086B44E18EC2AA79BFAA236F8E4005EA /* MyApiMyAPISDk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyApiMyAPISDk.xcconfig; sourceTree = "<group>"; };
 		0A8713364D7817B2D4484B9EA9319149 /* Pods-MyApiMyAPISDk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyApiMyAPISDk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1C851B9EBF15F883FC4078F4DDA16D5D /* Pods-MyApiMyAPISDk_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyApiMyAPISDk_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		1DEC285919FD81DD3EA705A984A754D6 /* MyApiMyAPISDk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MyApiMyAPISDk.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1DEC285919FD81DD3EA705A984A754D6 /* MyAPISDk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MyAPISDk.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3294FE809509F274612DBBE5165D5153 /* Pods-MyApiMyAPISDk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyApiMyAPISDk_Example-dummy.m"; sourceTree = "<group>"; };
 		379245AA4241522C0137AA0B72ABED0E /* Pods-MyApiMyAPISDk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyApiMyAPISDk_Example.modulemap"; sourceTree = "<group>"; };
 		466B8962BB895FF9B237398B65DAB286 /* Pods_MyApiMyAPISDk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyApiMyAPISDk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -170,7 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				F99131AD0146469FF9398F2271DF5492 /* LICENSE */,
-				1DEC285919FD81DD3EA705A984A754D6 /* MyApiMyAPISDk.podspec */,
+				1DEC285919FD81DD3EA705A984A754D6 /* MyAPISDk.podspec */,
 				CAE7F6DAC5A81C28FF4FA40698C485E5 /* README.md */,
 			);
 			name = Pod;
