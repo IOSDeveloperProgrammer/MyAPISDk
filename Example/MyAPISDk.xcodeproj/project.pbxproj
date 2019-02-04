@@ -44,7 +44,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6B8B02BE4C676E2AB1683CAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7CCED94B5997900234900BDC /* Pods_MyApiMyAPISDk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyApiMyAPISDk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A382D17011882E3F18C4242 /* MyAPISDk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyAPISDk.podspec; path = ../MyAPISDk.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8A382D17011882E3F18C4242 /* MyApiMyAPISDk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyApiMyAPISDk.podspec; path = ../MyApiMyAPISDk.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E2F6AD45BEF620D5EC4AF5D /* Pods-MyApiMyAPISDk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyApiMyAPISDk_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyApiMyAPISDk_Example/Pods-MyApiMyAPISDk_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D5423D3F002BBF3647294452 /* Pods-MyApiMyAPISDk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyApiMyAPISDk_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyApiMyAPISDk_Tests/Pods-MyApiMyAPISDk_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,7 +132,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				8A382D17011882E3F18C4242 /* MyAPISDk.podspec */,
+				8A382D17011882E3F18C4242 /* MyApiMyAPISDk.podspec */,
 				2B5BA4B9A3310E12B334DBDF /* README.md */,
 				6B8B02BE4C676E2AB1683CAD /* LICENSE */,
 			);

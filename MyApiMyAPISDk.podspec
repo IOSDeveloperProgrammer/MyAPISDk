@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'MyApiMyAPISDk'
+  s.name             = 'MyAPISDk'
   s.version          = '0.1.0'
   s.summary          = 'NSUrl cache subclass handling all web request that urlrequest.'
 

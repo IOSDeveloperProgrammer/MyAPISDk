@@ -16,7 +16,6 @@
 		A5FF24EBBE39B494F17FE0877C55A98E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		B801EDA60D6100BF8D9BABE675B760CE /* Pods-MyApiMyAPISDk_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76B9B1809A572A66859DFA3126EE1C1F /* Pods-MyApiMyAPISDk_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5C9F30938F8F2FEB5BFF967906C987E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		D610D86768BCBA494857F8DDD7CB2475 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEA106239EE6719AA7004C108F18656 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,10 +42,10 @@
 		086B44E18EC2AA79BFAA236F8E4005EA /* MyApiMyAPISDk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyApiMyAPISDk.xcconfig; sourceTree = "<group>"; };
 		0A8713364D7817B2D4484B9EA9319149 /* Pods-MyApiMyAPISDk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyApiMyAPISDk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1C851B9EBF15F883FC4078F4DDA16D5D /* Pods-MyApiMyAPISDk_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyApiMyAPISDk_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		1DEC285919FD81DD3EA705A984A754D6 /* MyApiMyAPISDk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MyApiMyAPISDk.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1DEC285919FD81DD3EA705A984A754D6 /* MyApiMyAPISDk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MyApiMyAPISDk.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3294FE809509F274612DBBE5165D5153 /* Pods-MyApiMyAPISDk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyApiMyAPISDk_Example-dummy.m"; sourceTree = "<group>"; };
 		379245AA4241522C0137AA0B72ABED0E /* Pods-MyApiMyAPISDk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyApiMyAPISDk_Example.modulemap"; sourceTree = "<group>"; };
-		466B8962BB895FF9B237398B65DAB286 /* Pods_MyApiMyAPISDk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyApiMyAPISDk_Example.framework; path = "Pods-MyApiMyAPISDk_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		466B8962BB895FF9B237398B65DAB286 /* Pods_MyApiMyAPISDk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyApiMyAPISDk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		479065A480B5C4C12B44EF261302D9C6 /* MyApiMyAPISDk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyApiMyAPISDk-prefix.pch"; sourceTree = "<group>"; };
 		570837BD7B2FF40788B306EBA656D787 /* Pods-MyApiMyAPISDk_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyApiMyAPISDk_Example-resources.sh"; sourceTree = "<group>"; };
 		60686D8B64C6A9F58CBDA37CC30C4315 /* Pods-MyApiMyAPISDk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyApiMyAPISDk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -57,21 +56,20 @@
 		7F6C3A540C5B58DFD007B0FBF98EE1C9 /* Pods-MyApiMyAPISDk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyApiMyAPISDk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7F869D0EB854F7C38D30FEED773AC9F0 /* MyApiMyAPISDk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyApiMyAPISDk-umbrella.h"; sourceTree = "<group>"; };
 		8B0F0726A7935A0491E16D92EFF43A15 /* Pods-MyApiMyAPISDk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyApiMyAPISDk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A2C04E04965B2062D99BC4FEC80E0A6 /* Pods-MyApiMyAPISDk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyApiMyAPISDk_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9CB30CE86CA65FB91272F17059EDF6FC /* Pods-MyApiMyAPISDk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyApiMyAPISDk_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B65F6C96F38BFC24D7CCCED9681A5361 /* Pods-MyApiMyAPISDk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyApiMyAPISDk_Tests-dummy.m"; sourceTree = "<group>"; };
 		BB1289C4F1AD4351016D78ACED7D7F7A /* MyApiMyAPISDk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyApiMyAPISDk-dummy.m"; sourceTree = "<group>"; };
 		C129FFC6EEA0AF952196D024251FD047 /* Pods-MyApiMyAPISDk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyApiMyAPISDk_Tests.modulemap"; sourceTree = "<group>"; };
-		CAE7F6DAC5A81C28FF4FA40698C485E5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CAE7F6DAC5A81C28FF4FA40698C485E5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CCBE843BA2CD9443BA86770D1B150B46 /* Pods-MyApiMyAPISDk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyApiMyAPISDk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DAEA106239EE6719AA7004C108F18656 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MyApiMyAPISDk/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		E6F58218E74FBAEE6176AA531379B280 /* Pods-MyApiMyAPISDk_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyApiMyAPISDk_Tests-resources.sh"; sourceTree = "<group>"; };
-		EA2FE467DED28C500C1DAB8D9B0DF4B8 /* MyApiMyAPISDk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MyApiMyAPISDk.framework; path = MyApiMyAPISDk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0A09904C8D6F57826BD1800B73423AE /* Pods_MyApiMyAPISDk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyApiMyAPISDk_Tests.framework; path = "Pods-MyApiMyAPISDk_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2FE467DED28C500C1DAB8D9B0DF4B8 /* MyApiMyAPISDk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyApiMyAPISDk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0A09904C8D6F57826BD1800B73423AE /* Pods_MyApiMyAPISDk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyApiMyAPISDk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F489BF4F6DB393D66F619EF208144693 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F99131AD0146469FF9398F2271DF5492 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F99131AD0146469FF9398F2271DF5492 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +103,6 @@
 		030002B4264853457BA1DBC39D77BB27 /* MyApiMyAPISDk */ = {
 			isa = PBXGroup;
 			children = (
-				DAEA106239EE6719AA7004C108F18656 /* ReplaceMe.swift */,
 				A62FED1D6C0613BD0610C51D7134997F /* Pod */,
 				CA5CB82071D1118CDC36124069606663 /* Support Files */,
 			);
@@ -371,7 +368,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A7F7341F5D9703711D7EA51B5E6F125 /* MyApiMyAPISDk-dummy.m in Sources */,
-				D610D86768BCBA494857F8DDD7CB2475 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,8 +559,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
