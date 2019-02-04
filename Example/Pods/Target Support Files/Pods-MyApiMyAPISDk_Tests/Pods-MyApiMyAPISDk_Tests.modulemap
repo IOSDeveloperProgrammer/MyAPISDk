@@ -1,0 +1,6 @@
+framework module Pods_MyApiMyAPISDk_Tests {
+  umbrella header "Pods-MyApiMyAPISDk_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
