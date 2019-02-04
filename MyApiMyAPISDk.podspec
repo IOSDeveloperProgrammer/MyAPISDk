@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 NSUrl cache subclass handling all web request that urlrequest
                        DESC
 
-  s.homepage         = 'https://github.com/IOSDeveloperProgrammer/MyApiMyAPISDk'
+  s.homepage         = 'https://github.com/IOSDeveloperProgrammer/MyAPISDk'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'IOSDeveloperProgrammer' => 'tv17127@gmail.com' }
-  s.source           = { :git => 'https://github.com/IOSDeveloperProgrammer/MyApiMyAPISDk.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/IOSDeveloperProgrammer/MyAPISDk.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MyApiMyAPISDk/Classes/**/*'
+  s.source_files = 'MyAPISDk/Classes/**/*'
   
   # s.resource_bundles = {
   #   'MyApiMyAPISDk' => ['MyApiMyAPISDk/Assets/*.png']
