@@ -32,19 +32,19 @@
 		2AB26D9C6107E3E2EF738F11 /* Pods-MyApiMyAPISDk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyApiMyAPISDk_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyApiMyAPISDk_Example/Pods-MyApiMyAPISDk_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2B5BA4B9A3310E12B334DBDF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3B2B9D68D9C0A5312EDE5494 /* Pods-MyApiMyAPISDk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyApiMyAPISDk_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyApiMyAPISDk_Tests/Pods-MyApiMyAPISDk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* MyApiMyAPISDk_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApiMyAPISDk_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD01AFB9204008FA782 /* MyAPISDk_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAPISDk_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* MyApiMyAPISDk_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyApiMyAPISDk_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* MyAPISDk_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAPISDk_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6B8B02BE4C676E2AB1683CAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7CCED94B5997900234900BDC /* Pods_MyApiMyAPISDk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyApiMyAPISDk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A382D17011882E3F18C4242 /* MyApiMyAPISDk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyApiMyAPISDk.podspec; path = ../MyApiMyAPISDk.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8A382D17011882E3F18C4242 /* MyAPISDk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyAPISDk.podspec; path = ../MyAPISDk.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E2F6AD45BEF620D5EC4AF5D /* Pods-MyApiMyAPISDk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyApiMyAPISDk_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyApiMyAPISDk_Example/Pods-MyApiMyAPISDk_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D5423D3F002BBF3647294452 /* Pods-MyApiMyAPISDk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyApiMyAPISDk_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyApiMyAPISDk_Tests/Pods-MyApiMyAPISDk_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,8 +84,8 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* MyApiMyAPISDk_Example.app */,
-				607FACE51AFB9204008FA782 /* MyApiMyAPISDk_Tests.xctest */,
+				607FACD01AFB9204008FA782 /* MyAPISDk_Example.app */,
+				607FACE51AFB9204008FA782 /* MyAPISDk_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,7 +132,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				8A382D17011882E3F18C4242 /* MyApiMyAPISDk.podspec */,
+				8A382D17011882E3F18C4242 /* MyAPISDk.podspec */,
 				2B5BA4B9A3310E12B334DBDF /* README.md */,
 				6B8B02BE4C676E2AB1683CAD /* LICENSE */,
 			);
@@ -162,9 +162,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* MyApiMyAPISDk_Example */ = {
+		607FACCF1AFB9204008FA782 /* MyAPISDk_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MyApiMyAPISDk_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MyAPISDk_Example" */;
 			buildPhases = (
 				0654F735057F37D09D3A9CEC /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
@@ -176,14 +176,14 @@
 			);
 			dependencies = (
 			);
-			name = MyApiMyAPISDk_Example;
+			name = MyAPISDk_Example;
 			productName = MyApiMyAPISDk;
-			productReference = 607FACD01AFB9204008FA782 /* MyApiMyAPISDk_Example.app */;
+			productReference = 607FACD01AFB9204008FA782 /* MyAPISDk_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* MyApiMyAPISDk_Tests */ = {
+		607FACE41AFB9204008FA782 /* MyAPISDk_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MyApiMyAPISDk_Tests" */;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MyAPISDk_Tests" */;
 			buildPhases = (
 				256DF917CFBD4B153DBB2D92 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
@@ -195,9 +195,9 @@
 			dependencies = (
 				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
 			);
-			name = MyApiMyAPISDk_Tests;
+			name = MyAPISDk_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* MyApiMyAPISDk_Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* MyAPISDk_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +221,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "MyApiMyAPISDk" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "MyAPISDk" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -234,8 +234,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* MyApiMyAPISDk_Example */,
-				607FACE41AFB9204008FA782 /* MyApiMyAPISDk_Tests */,
+				607FACCF1AFB9204008FA782 /* MyAPISDk_Example */,
+				607FACE41AFB9204008FA782 /* MyAPISDk_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -352,7 +352,7 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* MyApiMyAPISDk_Example */;
+			target = 607FACCF1AFB9204008FA782 /* MyAPISDk_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -524,7 +524,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyApiMyAPISDk_Example.app/MyApiMyAPISDk_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyAPISDk_Example.app/MyAPISDk_Example";
 			};
 			name = Debug;
 		};
@@ -542,14 +542,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyApiMyAPISDk_Example.app/MyApiMyAPISDk_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyAPISDk_Example.app/MyAPISDk_Example";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "MyApiMyAPISDk" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "MyAPISDk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
@@ -558,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MyApiMyAPISDk_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MyAPISDk_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
@@ -567,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MyApiMyAPISDk_Tests" */ = {
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MyAPISDk_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,

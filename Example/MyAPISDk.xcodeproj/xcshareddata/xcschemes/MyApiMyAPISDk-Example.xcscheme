@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "MyApiMyAPISDk_Example.app"
-               BlueprintName = "MyApiMyAPISDk_Example"
-               ReferencedContainer = "container:MyApiMyAPISDk.xcodeproj">
+               BuildableName = "MyAPISDk_Example.app"
+               BlueprintName = "MyAPISDk_Example"
+               ReferencedContainer = "container:MyAPISDk.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "MyApiMyAPISDk_Tests.xctest"
-               BlueprintName = "MyApiMyAPISDk_Tests"
-               ReferencedContainer = "container:MyApiMyAPISDk.xcodeproj">
+               BuildableName = "MyAPISDk_Tests.xctest"
+               BlueprintName = "MyAPISDk_Tests"
+               ReferencedContainer = "container:MyAPISDk.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -40,7 +40,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
@@ -48,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "MyApiMyAPISDk_Tests.xctest"
-               BlueprintName = "MyApiMyAPISDk_Tests"
-               ReferencedContainer = "container:MyApiMyAPISDk.xcodeproj">
+               BuildableName = "MyAPISDk_Tests.xctest"
+               BlueprintName = "MyAPISDk_Tests"
+               ReferencedContainer = "container:MyAPISDk.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -58,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "MyApiMyAPISDk_Example.app"
-            BlueprintName = "MyApiMyAPISDk_Example"
-            ReferencedContainer = "container:MyApiMyAPISDk.xcodeproj">
+            BuildableName = "MyAPISDk_Example.app"
+            BlueprintName = "MyAPISDk_Example"
+            ReferencedContainer = "container:MyAPISDk.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -70,7 +69,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -82,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "MyApiMyAPISDk_Example.app"
-            BlueprintName = "MyApiMyAPISDk_Example"
-            ReferencedContainer = "container:MyApiMyAPISDk.xcodeproj">
+            BuildableName = "MyAPISDk_Example.app"
+            BlueprintName = "MyAPISDk_Example"
+            ReferencedContainer = "container:MyAPISDk.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -101,9 +99,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "MyApiMyAPISDk_Example.app"
-            BlueprintName = "MyApiMyAPISDk_Example"
-            ReferencedContainer = "container:MyApiMyAPISDk.xcodeproj">
+            BuildableName = "MyAPISDk_Example.app"
+            BlueprintName = "MyAPISDk_Example"
+            ReferencedContainer = "container:MyAPISDk.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
