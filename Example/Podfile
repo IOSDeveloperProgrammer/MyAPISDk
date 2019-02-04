@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MyApiMyAPISDk_Example' do
+  pod 'MyApiMyAPISDk', :path => '../'
+
+  target 'MyApiMyAPISDk_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
